@@ -14,7 +14,9 @@ class ChattyStudent < Student
     #   counter += 1
     #   puts "Pick me!"
     # end
-    10.times(super)
+    10.times do
+      super
+    end
   end
 
 end
