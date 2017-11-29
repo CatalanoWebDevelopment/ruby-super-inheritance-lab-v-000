@@ -9,12 +9,11 @@ class ChattyStudent < Student
 
   def raise_hand
     super
-    # counter = 0
-    # while counter < 9
-    #   counter += 1
-    #   puts "Pick me!"
-    # end
-    9.times(super)
+    counter = 0
+    while counter < 9
+      counter += 1
+      puts "Pick me!"
+    end
   end
 
 end
